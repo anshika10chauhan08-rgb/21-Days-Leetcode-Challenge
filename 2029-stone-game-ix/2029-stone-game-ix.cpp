@@ -2,26 +2,26 @@ class Solution {
 public:
     bool stoneGameIX(vector<int>& stones) {
 
-        int cnt0 = 0, cnt1 = 0, cnt2 = 0;
+        int count[3] = {0, 0, 0};
 
-        for (int i : stones) {
-            int x = i % 3;
-
-            if (x == 0) {
-                cnt0++;
-            }
-            else if (x == 1) {
-                cnt1++;
-            }
-            else {
-                cnt2++;
-            }
+        // Count stones according to remainder when divided by 3
+        for (int x : stones) {
+            count[x % 3]++;
         }
 
-        if (cnt0 % 2 == 0) {
-            return cnt1 >= 1 && cnt2 >= 1;
+        // If number of 0-remainder stones is even
+        if (count[0] % 2 == 0) {
+            if (count[1] > 0 && count[2] > 0) {
+                return true;
+            }
+            return false;
         }
 
-        return abs(cnt1 - cnt2) > 2;
+        // If number of 0-remainder stones is odd
+        if (abs(count[1] - count[2]) > 2) {
+            return true;
+        }
+
+        return false;
     }
 };
