@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2029-stone-game-ix](https://github.com/anshika10chauhan08-rgb/21-Days-Leetcode-Challenge/tree/master/2029-stone-game-ix) |
+| [0136-single-number](https://github.com/anshika10chauhan08-rgb/21-Days-Leetcode-Challenge/tree/master/0136-single-number) |
 ## Math
 |  |
 | ------- |
@@ -33,4 +34,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2029-stone-game-ix](https://github.com/anshika10chauhan08-rgb/21-Days-Leetcode-Challenge/tree/master/2029-stone-game-ix) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0136-single-number](https://github.com/anshika10chauhan08-rgb/21-Days-Leetcode-Challenge/tree/master/0136-single-number) |
 <!---LeetCode Topics End-->
